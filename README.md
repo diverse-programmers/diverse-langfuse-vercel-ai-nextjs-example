@@ -4,7 +4,6 @@ This example repo demostrates how to use Langfuse to instrument a NextJs app wit
 
 Relevant Files:
 
-- `next.config.js` - Enable `experimental.instrumentationHook`
 - `instrumentation.ts` - Register the `LangfuseExporter`
 - `app/routes/api/*` - Enable `experimental_telemetry` in AI SDK routes
 
